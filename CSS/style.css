@@ -284,14 +284,14 @@ body {
 .css {
     width: 92%;
 }
-.jquery {
-    width: 75%;
+.media-q {
+    width: 87%;
 }
 .js {
     width: 72%;
 }
-.media-q {
-    width: 84%;
+.jquery {
+    width: 70%;
 }
 .bootstrap {
     width: 50%;
@@ -603,7 +603,7 @@ footer p2 {
 }      
 @media screen and (max-width: 480px) {
     .logo-sec .logo h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .side-btns li {
         padding: 0px 5px;
@@ -638,7 +638,7 @@ footer p2 {
 }
 @media screen and (max-width: 400px) {
     .about-cols {
-        width: 75%;
+        width: 80%;
     }
     .about-cols .about-desc h1 {
         font-size: 20px;
@@ -711,13 +711,13 @@ footer p2 {
     }
 }
 @media screen and (max-width: 570px) {
+    #contact .contact-container {
+        width: 75%;
+    }
     .contact-container h1 {
         font-size: 25px;
     }
     form .input {width: 80%;}
-    #contact .contact-container {
-        width: 75%;
-    }
 }
 /*==============================
        RESPONSIVE FOOTER
