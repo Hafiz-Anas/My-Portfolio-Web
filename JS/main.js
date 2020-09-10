@@ -1,10 +1,3 @@
-//PRELOADER
-const preloader = document.querySelector('.preloader');
-
-window.addEventListener('load', ()=> {
-  preloader.classList.add('hide-preloader');
-});
-
 //RESPONSIVE NAVIGATION
 const burger = document.querySelector('.burger');
 const navLinks = document.querySelectorAll('.nav-links li');
