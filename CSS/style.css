@@ -617,6 +617,13 @@ footer p2 {
     }
 }  
 @media screen and (max-width: 400px) {
+    .logo-sec .logo h1 {
+        font-size: 18px;
+    }
+    .side-btns li a {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
     .nav-links li a {
         font-size: 11px;
         padding: 7px;
@@ -717,7 +724,7 @@ footer p2 {
     .contact-container h1 {
         font-size: 25px;
     }
-    form .input {width: 80%;}
+    form .input {width: 78%;}
 }
 /*==============================
        RESPONSIVE FOOTER
