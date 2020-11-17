@@ -282,16 +282,16 @@ body {
     width: 92%;
 }
 .js {
-    width: 72%;
+    width: 60%;
 }
-.jquery {
-    width: 70%;
+.bootstrap {
+    width: 55%;
 }
 .typescript {
-    width: 70%;
+    width: 25%;
 }
 .php {
-    width: 55%;
+    width: 20%;
 }
 
 /*==============================
