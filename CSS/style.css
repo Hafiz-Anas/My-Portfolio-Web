@@ -183,7 +183,7 @@ body {
     background-color: rgba(80, 0, 0);
     color: white;
     padding: 15px;
-    border: 3px solid white;
+    border: 2.5px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,16 +279,16 @@ body {
     width: 95%;
 }
 .css {
-    width: 92%;
+    width: 93%;
 }
 .js {
-    width: 60%;
-}
-.bootstrap {
     width: 65%;
 }
-.typescript {
-    width: 25%;
+.reactJs {
+    width: 45%;
+}
+.ts {
+    width: 30%;
 }
 .php {
     width: 20%;
@@ -605,13 +605,13 @@ footer p2 {
     padding-top: 5px;
 }
 .top-link {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 100;
     position: fixed;
     bottom: 3rem;
     right: 3rem;
     background-color: rgb(80,0,0);
-    padding: 7px 9px;
+    padding: 6px 8px;
     border-radius: 4px;
     color: #fff;
     animation: bounce 2s ease-in-out infinite;
