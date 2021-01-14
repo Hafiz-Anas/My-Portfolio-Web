@@ -147,15 +147,16 @@ body {
     padding: 0px 7px;
 }
 .social-contact li a {
-    padding: 12px 15px;
-    font-size: 22px;
+    padding: 9px 12px;
+    font-size: 20px;
     border: 2px solid transparent;
     border-radius: 100%;
     color: white;
     transition: .3s ease-in-out;
 }
-.social-contact li .fb {background-color: #3b5998; padding: 12px 18px;}
+.social-contact li .fb {background-color: #3b5998; padding: 9.5px 16px;}
 .social-contact li .insta {background-color: rgb(251, 57, 88);}
+.social-contact li .in {background-color:  #0e76a8;}
 .social-contact li .git {background-color: #333;}
 .social-contact li .wtsp {background-color: #4FCE5D;}
 .social-contact li a:hover {
@@ -516,6 +517,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;;
     grid-gap: 2rem;
+    overflow: hidden;
 }
 form label {
     background-color: transparent;
@@ -559,10 +561,10 @@ form .submit {
 form .submit:hover {
     background-color: rgb(214, 5, 5);
 }
-.contact-container .addres p:nth-child(1), p:nth-child(3), p:nth-child(5){
+.contact-container .address p:nth-child(1), p:nth-child(3), p:nth-child(5){
     padding-bottom: 4px;
 }
-.contact-container .addres p:nth-child(2), p:nth-child(4), p:nth-child(6){
+.contact-container .address p:nth-child(2), p:nth-child(4), p:nth-child(6){
     padding-bottom: 25px;
     color: rgb(87, 87, 87);
     font-size: 15px;
@@ -693,6 +695,11 @@ footer p2 {
     .mid-section p {
         width: 80%;
     }
+    .social-contact li a {
+        padding: 8px 10px;
+        font-size: 18px;
+    }   
+   .social-contact li .fb {background-color: #3b5998; padding: 8.5px 13px;} 
 }  
 @media screen and (max-width: 400px) {
     .logo-sec .logo h1 {
@@ -807,7 +814,7 @@ footer p2 {
         place-items: center;
     }
     form .input {width: 80%;}
-    .contact-container .addres {
+    .contact-container .address {
         padding-left: 20px;
     }
 }
