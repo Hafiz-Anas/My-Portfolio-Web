@@ -597,6 +597,7 @@ footer ul li .fb:hover {color: #3b5998;}
 footer ul li .insta:hover {color: rgb(251, 57, 88);}
 footer ul li .in:hover {color: #0e76a8;}
 footer ul li .git:hover {color: #333;}
+footer ul li .tw:hover {color: #00acee;}
 footer ul li .wtsp:hover {color: #4FCE5D;}
 footer p, p2 {
     color: rgb(146, 146, 146);
@@ -831,6 +832,9 @@ footer p2 {
        RESPONSIVE FOOTER
 ===============================*/
 @media screen and (max-width: 500px) {
+    footer ul li {
+        padding: 0px 12px;
+    }
     .top-link {
         right: 2rem;
         bottom: 2rem;
