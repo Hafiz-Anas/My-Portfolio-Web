@@ -7,11 +7,11 @@
 }
 html {
     scroll-behavior: smooth;
-}  
+}
 body {
     overflow-x: hidden !important;
     box-sizing: border-box;
-}    
+}
 /*==============================
              HOME
 ===============================*/
@@ -120,7 +120,7 @@ body {
     border-radius: 100%;
     border: 12px solid rgba(255, 255, 255, 0.2);
     cursor: pointer;
-} 
+}
 .mid-section h1 {
     color: #fff;
     padding: 30px 0px 10px 0px;
@@ -170,7 +170,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4)), url(../Imgs/about-bg.jpg);
     background-size: cover;
     background-position: center;
-    padding: 120px 0px; 
+    padding: 120px 0px;
     display: grid;
     place-items: center;
 }
@@ -189,7 +189,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.about-desc h1 {font-size: 27px;} 
+.about-desc h1 {font-size: 27px;}
 .about-desc p {
     padding-top: 10px;
     font-size: 14px;
@@ -247,7 +247,7 @@ body {
     box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 30px;
-    
+
 }
 .pro-skills li {
     padding: 8px 0px;
@@ -279,22 +279,22 @@ body {
 .html {
     width: 95%;
 }
-.css {
-    width: 93%;
-}
+
 .js {
-    width: 65%;
+    width: 85%;
 }
 .reactJs {
-    width: 45%;
+    width: 95%;
 }
 .ts {
-    width: 30%;
+    width: 90%;
 }
-.php {
-    width: 20%;
+.redux {
+    width:90%;
 }
-
+.node {
+    width: 40%;
+}
 /*==============================
              WORK
 ===============================*/
@@ -350,7 +350,7 @@ body {
     justify-content: center;
     align-items: center;
     transition: .3s ease-in-out;
-}    
+}
 .item .overlay {
     width: 100%;
     height: 100%;
@@ -496,7 +496,7 @@ body {
     background-image: url(../Imgs/contact-bg.png);
     background-size: cover;
     background-position: center;
-    padding: 90px 0px; 
+    padding: 90px 0px;
     display: grid;
     place-items: center;
 }
@@ -537,7 +537,7 @@ form .input {
     outline: none;
     border: 0;
     background-color: transparent;
-}  
+}
 form textarea {
     width: 90% !important;
     border-bottom: 1px solid rgb(218, 218, 218) !important;
@@ -569,7 +569,7 @@ form .submit:hover {
     color: rgb(87, 87, 87);
     font-size: 15px;
     letter-spacing: 1px;
-} 
+}
 /*==============================
            FOOTER
 ===============================*/
@@ -603,7 +603,7 @@ footer p, p2 {
     color: rgb(146, 146, 146);
     padding-top: 17px;
     text-align: center;
-}    
+}
 footer p2 {
     padding-top: 5px;
 }
@@ -652,7 +652,7 @@ footer p2 {
         padding: 10px;
     }
     .burger {display: block;}
-}    
+}
 @keyframes navLinkFade {
     from {
         transform: translateX(-100px);
@@ -681,7 +681,7 @@ footer p2 {
         font-size: 11px;
         padding: 7px 12px;
     }
-}      
+}
 @media screen and (max-width: 480px) {
     .logo-sec .logo h1 {
         font-size: 20px;
@@ -699,9 +699,9 @@ footer p2 {
     .social-contact li a {
         padding: 8px 10px;
         font-size: 18px;
-    }   
-   .social-contact li .fb {background-color: #3b5998; padding: 8.5px 13px;} 
-}  
+    }
+   .social-contact li .fb {background-color: #3b5998; padding: 8.5px 13px;}
+}
 @media screen and (max-width: 400px) {
     .logo-sec .logo h1 {
         font-size: 18px;
@@ -748,10 +748,10 @@ footer p2 {
     .details span {
         padding-left: 5px;
     }
-}      
+}
 /*==============================
         RESPONSIVE SKILLS
-===============================*/  
+===============================*/
 @media screen and (max-width: 750px) {
     .pro-skills ul {
         grid-template-columns: 1fr;
@@ -772,7 +772,7 @@ footer p2 {
     #work .items {
         grid-template-columns: repeat(2, 1fr);
     }
-} 
+}
 @media screen and (max-width: 600px) {
     #work .container h1 {font-size: 23px;}
     #work .container p {font-size: 11px;}
@@ -795,7 +795,7 @@ footer p2 {
     #education .course {
         grid-template-columns: 1fr;
         grid-gap: 0;
-    }   
+    }
     #education .course-name h2 {
         font-size: 21px;
     }
@@ -809,7 +809,7 @@ footer p2 {
 @media screen and (max-width: 780px) {
     #contact .contact-container {
         padding: 30px 5px;
-    }    
+    }
     .contact-container .contact-cols {
         grid-template-columns: 1fr;
         place-items: center;
